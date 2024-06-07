@@ -9,14 +9,65 @@
     <script type="text/javascript" src="head/custom.js"></script>
     <style>
         body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             text-align: center;
+            margin: 0;
+            min-height: 100vh; /* Ensures the body takes full height */
         }
         img {
             width: 80%; /* Adjust the width as needed */
             max-width: 800px; /* Optional: set a maximum width */
             height: auto; /* Maintain aspect ratio */
             display: block;
-            margin: 0 auto; /* Center the image */
+            margin: 20px auto; /* Center the image */
+        }
+        h1 {
+            width: 100%; /* Ensures the title takes full width */
+            max-width: 800px; /* Optional: set a maximum width */
+            margin-top: 20px; /* Optional: Add some top margin */
+        }
+        .tabMenu {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto; /* Center the tab menu */
+        }
+        .tabMenu ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around; /* Distribute the list items */
+            padding: 0;
+            margin: 0;
+        }
+        .tabMenu ul li {
+            flex: 1;
+            text-align: center;
+            line-height: 30px;
+            border-right: 1px solid #C9C3C4;
+            border-left: 1px solid #C9C3C4;
+            background: #E9E9E6;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        .tabMenu ul li.on {
+            border-top: 1px solid #C9C3C4;
+            background: #FFFFFF;
+            opacity: 1;
+        }
+        .tabMenu ul li.ho {
+            opacity: 0.9;
+        }
+        .tabMenu div {
+            width: 100%;
+            margin: 0 0;
+        }
+        .hide {
+            display: none;
+        }
+        .show {
+            display: block;
         }
     </style>
 </head>
@@ -25,19 +76,19 @@
     <img src="overview.png" alt="Overview">
     <div id="tab1" class="tabMenu">
         <ul>
-            <li class="on"><h4>Geographical Distribution</h4></li>
-            <li class="off"><h4>Objects</h4></li>
-            <li class="off"><h4>Relationships</h4></li>
+            <li class="on"><h4>Basic Tasks</h4></li>
+            <li class="off"><h4>Complex Tasks</h4></li>
+            <li class="off"><h4>FIT-RSRC Bench</h4></li>
             <li class="off"><h4>Download Links</h4></li>
         </ul>
         <div id="firstPage-tab1" class="show">
-            <img src="distr.jpg" alt="Geographical Distribution">
+            <img src="distr.jpg" alt="Basic Tasks">
         </div>
         <div id="secondPage-tab1" class="hide">
-            <img src="obj.jpg" alt="Objects">
+            <img src="obj.jpg" alt="Complex Tasks">
         </div>
         <div id="thirdPage-tab1" class="hide">
-            <img src="rel.jpg" alt="Relationships">
+            <img src="rel.jpg" alt="FIT-RSRC Bench">
         </div>
         <div id="fourthPage-tab1" class="hide">
             <ul>

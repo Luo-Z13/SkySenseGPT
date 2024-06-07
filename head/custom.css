@@ -1,41 +1,40 @@
 .tabMenu {
-      width: 80%;
-      max-width: 800px;
-      margin: 0 auto; /* Center the tab menu */
-  }
-  .tabMenu ul {
-      list-style: none;
-      display: flex;
-      justify-content: space-around; /* Distribute the list items */
-      padding: 0;
-      margin: 0;
-  }
-  .tabMenu ul li {
-      flex: 1;
-      text-align: center;
-      line-height: 30px;
-      border-right: 1px solid #C9C3C4;
-      border-left: 1px solid #C9C3C4;
-      background: #E9E9E6;
-      opacity: 0.5;
-      cursor: pointer;
-  }
-  .tabMenu ul li.on {
-      border-top: 1px solid #C9C3C4;
-      background: #FFFFFF;
-      opacity: 1;
-  }
-  .tabMenu ul li.ho {
-      opacity: 0.9;
-  }
-  .tabMenu div {
-      width: 100%;
-      margin: 0 0;
-  }
-  .hide {
-      display: none;
-  }
-  .show {
-      display: block;
-  }
-  
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto; /* Center the tab menu */
+}
+.tabMenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Distribute the list items */
+    padding: 0;
+    margin: 0;
+}
+.tabMenu ul li {
+    flex: 1;
+    text-align: center;
+    line-height: 30px;
+    border-right: 1px solid #C9C3C4;
+    border-left: 1px solid #C9C3C4;
+    background: #E9E9E6;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.tabMenu ul li.on {
+    border-top: 1px solid #C9C3C4;
+    background: #FFFFFF;
+    opacity: 1;
+}
+.tabMenu ul li.ho {
+    opacity: 0.9;
+}
+.tabMenu div {
+    width: 100%;
+    margin: 0 0;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
