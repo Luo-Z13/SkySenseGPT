@@ -27,8 +27,4 @@ var tab = function(id) {
 }
 window.onload = function() {
   tab("tab1");
-  tab("tab2");
-  tab("tab3");
-  tab("tab4");
-  tab("tab5");
 }
