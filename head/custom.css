@@ -1,0 +1,53 @@
+.tabMenu {
+      width: 800px;
+      margin: 0 auto; /* Center the tab menu */
+  }
+  .tabMenu ul {
+      list-style: none;
+      height: 50px;
+      display: flex;
+      justify-content: center; /* Center the list items */
+      padding: 0;
+      margin: 0;
+  }
+  .tabMenu ul li {
+      width: 33.08%;
+      text-align: center;
+      line-height: 30px;
+      border-right: 1px solid #C9C3C4;
+      border-left: 1px solid #C9C3C4;
+      background: #E9E9E6;
+      opacity: 0.5;
+      cursor: pointer;
+  }
+  .tabMenu ul li.on {
+      border-top: 1px solid #C9C3C4;
+      background: #FFFFFF;
+      opacity: 1;
+  }
+  .tabMenu ul li.ho {
+      opacity: 0.9;
+  }
+  .tabMenu div {
+      width: 100%;
+      margin: 0 0;
+  }
+  .hide {
+      display: none;
+  }
+  .bar {
+      width: 800px;
+      text-align: center;
+      margin-top: 30px;
+      background: rgba(233, 233, 230, 0.5);
+      color: rgba(122, 139, 139, 0.9);
+      border-right: 1px solid rgba(201, 195, 196, 0.5);
+      border-left: 1px solid rgba(201, 195, 196, 0.5);
+  }
+  .dot {
+      color: #D8BFD8;
+  }
+  .lin {
+      color: #666666;
+  }
+  
