@@ -7,9 +7,6 @@ In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction 
 In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension) Benchmark, which adopts the common-used single-choice format and CircularEval strategy. It includes high-quality distractor options derived from commonsense word lists, as well as unanswerable questions, aiming to evaluate the Remote Sensing Relation Comprehension capabilities of existing LMMs.
 
 
-![Introduction](overview.jpg)
-
-
 ## Table of Contents
 - [Dataset Description](#dataset-description)
 - [Download Links](#download-links)
@@ -17,7 +14,26 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 - [License](#license)
 
 ### Dataset Description
-- TODO: Provide a detailed description of the dataset.
+
+<ul>
+  <li><strong>FIT-RS</strong></li>
+      <p align="justify">
+      FIT-RS is a large-scale fine-grained instruction tuning dataset, which contains 1,800,851 high quality instruction samples, aiming at enhancing the fine-grained comprehension ability of RSLMMs.
+      </p>
+    <p align="center">
+  <img src="overview.jpg" alt="Introduction" width="90%" />
+</p>
+
+  <li>
+    <strong>FIT-RSRC</strong><br>
+    <p align="justify">
+      Given the current lack of a publicly available benchmark for comprehensive and quantitative evaluation of existing LMMs in remote sensing relation understanding, we propose the FIT-RSRC (Remote Sensing Relation Comprehension) benchmark. It is designed in the form of single-choice questions, containing four different types of questions and high-quality distractor options. Following the mainstream general benchmark, FIT-RSRC employs CircularEval as the evaluation strategy.
+    </p>
+    <p align="center">
+  <img src="RSRC.jpg" alt="Introduction" width="90%" />
+    </p>
+  </li>
+</ul>
 
 ### Download Links
 - **FIT-RS**: A fine-grained instruction tuning dataset.
