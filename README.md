@@ -10,17 +10,19 @@ In this project, we propose FIT-RS (Remote Sensing Fine-Grained Instruction Tuni
 ## Table of Contents
 - [Dataset Description](#dataset-description)
 - [Download Links](#download-links)
+- [Citation](#citation)
+- [License](#license)
 
 ### Dataset Description
-- TODO
+- TODO: Provide a detailed description of the dataset.
 
 ### Download Links
-- FIT-RS (a fine-grained instruction tuning dataset)
-- [FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS) (a benchmark for remote sensing relation comprehension evaluation)
-- SkySenseGPT (a remote sensing large multi-modal model)
+- **FIT-RS**: A fine-grained instruction tuning dataset.
+- **[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)**: A benchmark for remote sensing relation comprehension evaluation.
+- **SkySenseGPT**: A remote sensing large multi-modal model.
 
 ### License
-This project is released under the [Apache 2.0 license](LICENSE)
+This project is released under the [Apache 2.0 license](LICENSE).
 
 ### Citation
-- TODO
+- TODO: Add citation information here.
