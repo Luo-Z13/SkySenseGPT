@@ -1,16 +1,18 @@
 [![License](https://img.shields.io/badge/license-apache%202.0-60C060.svg)](https://github.com/Luo-Z13/SkySenseGPT?tab=Apache-2.0-1-ov-file)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Zhuzi24/SGG-ToolKit)
-<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Luo-Z13/SkySenseGPT?style=social"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/Luo-Z13/SkySenseGPT?style=social"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/Luo-Z13/SkySenseGPT?style=social">
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/Luo-Z13/SkySenseGPT?style=social">
 
 # SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
 
-## 📢 Latest Updates
+## 📢 News and Updates
 :fire::fire::fire: Last Updated on 2024.06.13 :fire::fire::fire: 
 <!-- - **2024.06.13**: Update readme. -->
 - **2024.06.7**: Upload FIT-RSRC dataset in huggingface.
 
 
 ## 📌 Introduction
+
+#### [Paper][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
+
 
 In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes.
 
