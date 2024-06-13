@@ -6,17 +6,17 @@
 ## 📢 News and Updates
 :fire::fire::fire: Last Updated on 2024.06.13 :fire::fire::fire: 
 <!-- - **2024.06.13**: Update readme. -->
-- **2024.06.7**: Upload FIT-RSRC dataset in huggingface.
+- **2024.06.7**: Upload FIT-RSRC dataset to huggingface.
 
 
 ## 📌 Introduction
 
-#### [Paper][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
+### [Paper][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
 
 
 In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes.
 
-In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension) Benchmark, which adopts the common-used single-choice format and CircularEval strategy. It includes high-quality distractor options derived from commonsense word lists, as well as unanswerable questions, aiming to evaluate the Remote Sensing Relation Comprehension capabilities of existing LMMs.
+In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension) Benchmark, which adopts the common-used single-choice format and CircularEval strategy. It includes high-quality distractor options derived from commonsense word lists, as well as unanswerable questions, aiming to evaluate the Remote Sensing Relation Comprehension capabilities of LMMs.
 
 
 
@@ -34,16 +34,16 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
       FIT-RS is a large-scale fine-grained instruction tuning dataset, which contains 1,800,851 high quality instruction samples, aiming at enhancing the fine-grained comprehension ability of RSLMMs.
       </p>
     <p align="center">
-  <img src="overview.jpg" alt="Introduction" width="95%" />
+  <img src="overview.png" alt="Introduction" width="100%" />
 </p>
 
   <li>
     <strong>FIT-RSRC</strong><br>
     <p align="justify">
-      Given the current lack of a publicly available benchmark for comprehensive and quantitative evaluation of existing LMMs in remote sensing relation understanding, we propose the FIT-RSRC (Remote Sensing Relation Comprehension) benchmark. It is designed in the form of single-choice questions, containing four different types of questions and high-quality distractor options. Following the mainstream general benchmark, FIT-RSRC employs CircularEval as the evaluation strategy.
+      Given the current lack of a publicly available benchmark for comprehensive and quantitative evaluation of existing LMMs in remote sensing relation understanding, we propose the FIT-RSRC (Remote Sensing Relation Comprehension) benchmark. It is designed in the form of <strong>single-choice</strong> questions, containing four different types of questions and high-quality distractor options. Following the mainstream general benchmark, FIT-RSRC employs CircularEval as the evaluation strategy.
     </p>
     <p align="center">
-  <img src="RSRC.jpg" alt="Introduction" width="95%" />
+  <img src="RSRC.jpg" alt="Introduction" width="100%" />
     </p>
   </li>
 
