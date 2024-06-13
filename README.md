@@ -6,7 +6,7 @@
 ## 📢 News and Updates
 :fire::fire::fire: Last Updated on 2024.06.13 :fire::fire::fire: 
 <!-- - **2024.06.13**: Update readme. -->
-- **2024.06.7**: Upload FIT-RSRC dataset in huggingface.
+- **2024.06.7**: Upload FIT-RSRC dataset to huggingface.
 
 
 ## 📌 Introduction
