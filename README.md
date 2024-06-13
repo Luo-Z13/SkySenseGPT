@@ -1,3 +1,7 @@
+[![License](https://img.shields.io/badge/license-apache%202.0-60C060.svg)](https://github.com/Luo-Z13/SkySenseGPT?tab=Apache-2.0-1-ov-file)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Zhuzi24/SGG-ToolKit)
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Luo-Z13/SkySenseGPT?style=social"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/Luo-Z13/SkySenseGPT?style=social"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/Luo-Z13/SkySenseGPT?style=social">
+
 # SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
 
 ## 📢 Latest Updates
@@ -43,8 +47,8 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 
    <li><strong>Download Links</strong></li>
    
-- ***FIT-RS***: A fine-grained remote sensing instruction tuning dataset.
-- ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)</u>***: A benchmark for remote sensing relation comprehension evaluation. ([Huggingface link](https://huggingface.co/datasets/ll-13/FIT-RS))
+- ***FIT-RS***: A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples.
+- ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)</u>***: A single-choice benchmark for remote sensing relation comprehension evaluation.
 - ***SkySenseGPT***: A remote sensing large multi-modal model.
 
 </ul>
