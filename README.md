@@ -49,9 +49,9 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 
    <li><strong>Download Links</strong></li>
    
-- ***FIT-RS***: A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples.
-- ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)</u>***: A single-choice benchmark for remote sensing relation comprehension evaluation.
-- ***SkySenseGPT***: A remote sensing large multi-modal model.
+- ***FIT-RS:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples.
+- ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A single-choice benchmark for remote sensing relation comprehension evaluation.
+- ***SkySenseGPT:*** A remote sensing large multi-modal model.
 
 </ul>
 
@@ -76,7 +76,7 @@ If you find this work helpful for your research, please consider giving this rep
 @article{li2024scene,
   title={Scene Graph Generation in Large-Size VHR Satellite Imagery: A Large-Scale Dataset and A Context-Aware Approach},
   author={Li, Yansheng and Wang, Linlin and Wang, Tingzhu and Yang, Xue and Wang, Qi and Sun, Xian and Wang, Wenbin and Luo, Junwei and Deng, Youming and Li, Haifeng and Dang, Bo and Zhang, Yongjun and Yan Junchi},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2406.09410},
   year={2024}
 }
 ```
