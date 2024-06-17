@@ -4,14 +4,16 @@
 # SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
 
 ## 📢 News and Updates
-:fire::fire::fire: Last Updated on 2024.06.13 :fire::fire::fire: 
-<!-- - **2024.06.13**: Update readme. -->
-- **2024.06.7**: Upload FIT-RSRC dataset to huggingface.
+:fire::fire::fire: Last Updated on 2024.06.17 :fire::fire::fire: 
+<!-- - **2024.06.17**: Update readme. -->
+The full dataset, scripts, and model weights are coming soon!
+- **2024.06.17**: Our paper is available in [arxiv](https://arxiv.org/abs/2406.10100).
+- **2024.06.7**: Upload FIT-RSRC dataset to [huggingface](https://huggingface.co/datasets/ll-13/FIT-RS).
 
 
 ## 📌 Introduction
 
-### [Paper][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
+### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
 
 
 In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes.
