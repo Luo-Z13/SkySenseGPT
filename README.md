@@ -8,7 +8,7 @@
 <!-- - **2024.06.17**: Update readme. -->
 The full dataset, scripts, and model weights are coming soon!
 - **2024.06.17**: Our paper is available in [arxiv](https://arxiv.org/abs/2406.10100).
-- **2024.06.7**: Upload FIT-RSRC dataset to [huggingface](https://huggingface.co/datasets/ll-13/FIT-RS).
+- **2024.06.07**: Upload FIT-RSRC dataset to [huggingface](https://huggingface.co/datasets/ll-13/FIT-RS).
 
 
 ## 📌 Introduction
@@ -71,7 +71,7 @@ If you find this work helpful for your research, please consider giving this rep
 @article{luo2024sky,
   title={SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding},
   author={Luo, Junwei and Pang, Zhen and Zhang, Yongjun and Wang, Tingzhu and Wang, Linlin and Dang, Bo and Lao, Jiangwei and Wang, Jian and Chen, Jingdong and Tan, Yihua and Li, Yansheng},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2406.10100},
   year={2024}
 }
 
