@@ -51,9 +51,9 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 
    <li><strong>Download Links</strong></li>
    
-- ***FIT-RS:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples.
+- ***<u>[FIT-RS](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples, 1415k for training.
 - ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A single-choice benchmark for remote sensing relation comprehension evaluation.
-- ***SkySenseGPT:*** A remote sensing large multi-modal model.
+- ***SkySenseGPT:*** A remote sensing large multi-modal model, capable of handling complex comprehension tasks like image-level scene graph generation.
 
 </ul>
 
