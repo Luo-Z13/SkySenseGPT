@@ -7,7 +7,7 @@
 :fire::fire::fire: Last Updated on 2024.07.01 :fire::fire::fire: 
 <!-- - **2024.06.17**: Update readme. -->
 The full dataset, scripts, and model weights are coming soon!
-- **2024.07.01**: The FIT-RS dataset can be downloaded from https://huggingface.co/datasets/ll-13/FIT-RS.
+- **2024.07.01**: The FIT-RSFG dataset can be downloaded from https://huggingface.co/datasets/ll-13/FIT-RS.
 - **2024.06.17**: Our paper is available in [arxiv](https://arxiv.org/abs/2406.10100).
 - **2024.06.07**: Upload FIT-RSRC dataset.
 
@@ -52,7 +52,7 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 
    <li><strong>Download Links</strong></li>
    
-- ***<u>[FIT-RS](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples, 1415k for training.
+- ***<u>[FIT-RSFG](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples, 1415k for training.
 - ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A single-choice benchmark for remote sensing relation comprehension evaluation.
 - ***SkySenseGPT:*** A remote sensing large multi-modal model, capable of handling complex comprehension tasks like image-level scene graph generation.
 
