@@ -7,7 +7,7 @@
 :fire::fire::fire: Last Updated on 2024.07.01 :fire::fire::fire: 
 <!-- - **2024.06.17**: Update readme. -->
 The full dataset, scripts, and model weights are coming soon!
-- **2024.07.01**: The FIT-RSFG dataset can be downloaded from https://huggingface.co/datasets/ll-13/FIT-RS.
+- **2024.07.01**: The FIT-RS dataset (training set 1415k) can be downloaded from https://huggingface.co/datasets/ll-13/FIT-RS.
 - **2024.06.17**: Our paper is available in [arxiv](https://arxiv.org/abs/2406.10100).
 - **2024.06.07**: Upload FIT-RSRC dataset.
 
