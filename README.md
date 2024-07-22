@@ -6,7 +6,7 @@
 # SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
 
 ## 📢 News and Updates
-:fire::fire::fire: Last Updated on 2024.07.22 :fire::fire::fire: 
+:fire::fire::fire: **Last Updated on 2024.07.22**:fire::fire::fire: 
 
 - **2024.07.22**: The FIT-RSFG benchmark have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSFG) and the evaluation scripts have been released [here](Eval_scripts)! See [Evaluation](#evaluation) for details on how to evaluate.
 - **2024.07.20**: The FIT-RS dataset (training set 1415k) **categorized by tasks** have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS/blob/main/FIT-RS_Instruction/train_data_of_each_individual_task.zip).
@@ -20,7 +20,7 @@
 ### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
 
 
-In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes. Based on FIT-RS, we establish the FIT-RSFG Benchmark to evaluate RSLMMs' ability in fine-grained understanding.
+In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes. Based on FIT-RS, we establish the FIT-RSFG (Remote Sensing Fine-Grained Comprehension) Benchmark to evaluate RSLMMs' ability in fine-grained understanding.
 
 In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension) Benchmark, which adopts the common-used single-choice format and CircularEval strategy. It includes high-quality distractor options derived from commonsense word lists, as well as unanswerable questions, aiming to evaluate the Remote Sensing Relation Comprehension capabilities of LMMs.
 
