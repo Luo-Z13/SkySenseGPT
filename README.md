@@ -8,7 +8,6 @@
 ## 📢 News and Updates
 :fire::fire::fire: Last Updated on 2024.07.22 :fire::fire::fire: 
 
-The full dataset, scripts, and model weights are coming soon!
 - **2024.07.22**: The FIT-RSFG benchmark have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSFG) and the evaluation scripts have been released [here](Eval_scripts)! See [Evaluation](#evaluation) for details on how to evaluate.
 - **2024.07.20**: The FIT-RS dataset (training set 1415k) **categorized by tasks** have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS/blob/main/FIT-RS_Instruction/train_data_of_each_individual_task.zip).
 - **2024.07.01**: The FIT-RS dataset (training set 1415k) have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS).
