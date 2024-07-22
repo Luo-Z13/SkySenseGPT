@@ -1,4 +1,6 @@
 [![License](https://img.shields.io/badge/license-apache%202.0-60C060.svg)](https://github.com/Luo-Z13/SkySenseGPT?tab=Apache-2.0-1-ov-file)
+[![Paper](https://img.shields.io/badge/Arxiv-2406.10100-blue)](https://arxiv.org/abs/2406.10100)
+[![Paper](https://img.shields.io/badge/Dataset-FITRS-orange)](https://huggingface.co/datasets/ll-13/FIT-RS)
 <img alt="GitHub stars" src="https://img.shields.io/github/stars/Luo-Z13/SkySenseGPT?style=social">
 
 # SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
@@ -63,7 +65,7 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 </ul>
 
 ## Evaluation
-1. Download [FIT-RSFG](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSFG) Bench.
+1. Download [FIT-RSFG](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSFG) and [FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSRC) Benchmarks.
 2. Install necessary packages as in the [requirements.txt](requirements.txt).
 3. See [evaluation.sh](Eval_scripts/evaluation.sh) for evaluation.
 
