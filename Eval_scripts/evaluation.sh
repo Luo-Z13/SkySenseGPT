@@ -36,7 +36,7 @@ python geochat/eval/batch_geochat_complex_compre.py \
 # FIT-RSRC Single-Choice
 python geochat/eval/batch_fitrsrc_single_choice_qa.py \
     --model-path /your_model_path/${model_name} \
-    --question-file /FIT-RSFG-Bench/FIT-RSRC_Questions_2k.jsonl \
+    --question-file /FIT-RSFC/FIT-RSRC_Questions_2k.jsonl \
     --answers-file /output_answers/${model_name}/FIT-RSRC_singlechoice_eval_${model_name}.jsonl \
     --image-folder /img_path/imgv2_split_512_100_vaild
 
