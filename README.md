@@ -4,14 +4,18 @@
 # SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
 
 ## 📢 News and Updates
-:fire::fire::fire: Last Updated on 2024.06.13 :fire::fire::fire: 
-<!-- - **2024.06.13**: Update readme. -->
-- **2024.06.7**: Upload FIT-RSRC dataset to huggingface.
+:fire::fire::fire: Last Updated on 2024.07.20 :fire::fire::fire: 
+<!-- - **2024.06.17**: Update readme. -->
+The full dataset, scripts, and model weights are coming soon!
+- **2024.07.20**: The FIT-RS dataset (training set 1415k) **categorized by tasks** have been uploaded to [here](https://huggingface.co/datasets/ll-13/FIT-RS/blob/main/FIT-RS_Instruction/train_data_of_each_individual_task.zip).
+- **2024.07.01**: The FIT-RS dataset (training set 1415k) can be downloaded from https://huggingface.co/datasets/ll-13/FIT-RS.
+- **2024.06.17**: Our paper is available in [arxiv](https://arxiv.org/abs/2406.10100).
+- **2024.06.07**: Upload FIT-RSRC dataset.
 
 
 ## 📌 Introduction
 
-### [Paper][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
+### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
 
 
 In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes.
@@ -49,9 +53,9 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 
    <li><strong>Download Links</strong></li>
    
-- ***FIT-RS:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples.
+- ***<u>[FIT-RSFG](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples, 1415k for training.
 - ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A single-choice benchmark for remote sensing relation comprehension evaluation.
-- ***SkySenseGPT:*** A remote sensing large multi-modal model.
+- ***SkySenseGPT:*** A remote sensing large multi-modal model, capable of handling complex comprehension tasks like image-level scene graph generation.
 
 </ul>
 
@@ -63,20 +67,22 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## 🖊️ Citation
 
-If you find this work helpful for your research, please consider giving this repo a star ⭐ and citing our paper:
+Our FIT-RS dataset is built based on the [STAR](https://linlin-dev.github.io/project/STAR.html) dataset. If you find this work helpful for your research, please consider giving this repo a star ⭐ and citing our paper:
 
 ```bibtex
 @article{luo2024sky,
   title={SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding},
   author={Luo, Junwei and Pang, Zhen and Zhang, Yongjun and Wang, Tingzhu and Wang, Linlin and Dang, Bo and Lao, Jiangwei and Wang, Jian and Chen, Jingdong and Tan, Yihua and Li, Yansheng},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2406.10100},
   year={2024}
 }
 
 @article{li2024scene,
-  title={Scene Graph Generation in Large-Size VHR Satellite Imagery: A Large-Scale Dataset and A Context-Aware Approach},
-  author={Li, Yansheng and Wang, Linlin and Wang, Tingzhu and Yang, Xue and Wang, Qi and Sun, Xian and Wang, Wenbin and Luo, Junwei and Deng, Youming and Li, Haifeng and Dang, Bo and Zhang, Yongjun and Yan Junchi},
+  title={STAR: A First-Ever Dataset and A Large-Scale Benchmark for Scene Graph Generation in Large-Size Satellite Imagery},
+  author={Li, Yansheng and Wang, Linlin and Wang, Tingzhu and Yang, Xue and Luo, Junwei and Wang, Qi and Deng, Youming and Wang, Wenbin and Sun, Xian and Li, Haifeng and Dang, Bo and Zhang, Yongjun and Yu, Yi and Yan Junchi},
   journal={arXiv preprint arXiv:2406.09410},
   year={2024}
 }
 ```
+
+We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA) and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
