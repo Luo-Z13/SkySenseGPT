@@ -62,16 +62,16 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 
 </ul>
 
-## 🛠️ Evaluation
+## Evaluation
 1. Download [FIT-RSFG](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSFG) Bench.
 2. Install necessary packages as in the (requirements.txt)[requirements.txt].
 3. See [evaluation.sh](Eval_scripts/evaluation.sh) for evaluation.
 
-## 🖊️ License
+## License
 This project is released under the [Apache 2.0 license](LICENSE).
 
 
-## 🖊️ Citation
+## Citation
 
 Our FIT-RS dataset is built based on the [STAR](https://linlin-dev.github.io/project/STAR.html) dataset. If you find this work helpful for your research, please consider giving this repo a star ⭐ and citing our paper:
 
