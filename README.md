@@ -67,7 +67,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## 🖊️ Citation
 
-If you find this work helpful for your research, please consider giving this repo a star ⭐ and citing our paper:
+Our FIT-RS dataset is built based on the [STAR](https://linlin-dev.github.io/project/STAR.html) dataset. If you find this work helpful for your research, please consider giving this repo a star ⭐ and citing our paper:
 
 ```bibtex
 @article{luo2024sky,
@@ -84,3 +84,5 @@ If you find this work helpful for your research, please consider giving this rep
   year={2024}
 }
 ```
+
+We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA) and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
