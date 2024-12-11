@@ -17,7 +17,7 @@
 
 ## 📌 Introduction
 
-### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][Model][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
+### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][[Model]](https://huggingface.co/ll-13/SkySenseGPT-7B-clip-lora)[[Code](https://github.com/Luo-Z13/SkySenseGPT)]
 
 
 In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes. Based on FIT-RS, we establish the FIT-RSFG (Remote Sensing Fine-Grained Comprehension) Benchmark to evaluate RSLMMs' ability in fine-grained understanding.
@@ -59,7 +59,7 @@ In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension)
 - ***<u>[FIT-RS](https://huggingface.co/datasets/ll-13/FIT-RS)</u>:*** A fine-grained remote sensing instruction tuning dataset, containing 1800k instruction samples, 1415k for training.
 - ***<u>[FIT-RSFG](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSFG)</u>:*** A fine-grained benchmark for remote sensing vision-language evaluation.
 - ***<u>[FIT-RSRC](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSRC)</u>:*** A single-choice benchmark for remote sensing relation comprehension evaluation.
-- ***SkySenseGPT:*** A remote sensing large multi-modal model, capable of handling complex comprehension tasks like image-level scene graph generation.
+- ***<u>[SkySenseGPT](https://huggingface.co/ll-13/SkySenseGPT-7B-clip-lora)</u>:*** A remote sensing large multi-modal model, capable of handling complex comprehension tasks like image-level scene graph generation.
 
 </ul>
 
