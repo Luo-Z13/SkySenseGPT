@@ -17,7 +17,7 @@
 
 ## 📌 Introduction
 
-### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][[Model]](https://huggingface.co/ll-13/SkySenseGPT-7B-clip-lora)[[Code](https://github.com/Luo-Z13/SkySenseGPT)]
+### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][[Model](https://huggingface.co/ll-13/SkySenseGPT-7B-clip-lora)][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
 
 
 In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes. Based on FIT-RS, we establish the FIT-RSFG (Remote Sensing Fine-Grained Comprehension) Benchmark to evaluate RSLMMs' ability in fine-grained understanding.
@@ -78,18 +78,18 @@ Our FIT-RS dataset is built based on the [STAR](https://linlin-dev.github.io/pro
 
 ```bibtex
 @article{luo2024sky,
-  title={SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding},
-  author={Luo, Junwei and Pang, Zhen and Zhang, Yongjun and Wang, Tingzhu and Wang, Linlin and Dang, Bo and Lao, Jiangwei and Wang, Jian and Chen, Jingdong and Tan, Yihua and Li, Yansheng},
-  journal={arXiv preprint arXiv:2406.10100},
-  year={2024}
+    title={SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding},
+    author={Luo, Junwei and Pang, Zhen and Zhang, Yongjun and Wang, Tingzhu and Wang, Linlin and Dang, Bo and Lao, Jiangwei and Wang, Jian and Chen, Jingdong and Tan, Yihua and Li, Yansheng},
+    journal={arXiv preprint arXiv:2406.10100},
+    year={2024}
 }
 
 @article{li2024scene,
-  title={STAR: A First-Ever Dataset and A Large-Scale Benchmark for Scene Graph Generation in Large-Size Satellite Imagery},
-  author={Li, Yansheng and Wang, Linlin and Wang, Tingzhu and Yang, Xue and Luo, Junwei and Wang, Qi and Deng, Youming and Wang, Wenbin and Sun, Xian and Li, Haifeng and Dang, Bo and Zhang, Yongjun and Yu, Yi and Yan Junchi},
-  journal={arXiv preprint arXiv:2406.09410},
-  year={2024}
-}
+    title={STAR: A First-Ever Dataset and A Large-Scale Benchmark for Scene Graph Generation in Large-Size Satellite Imagery},
+    author={Li, Yansheng and Wang, Linlin and Wang, Tingzhu and Yang, Xue and Luo, Junwei and Wang, Qi and Deng, Youming and Wang, Wenbin and Sun, Xian and Li, Haifeng and Dang, Bo and Zhang, Yongjun and Yu, Yi and Yan Junchi},
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    year={2024},
+    publisher={IEEE}}
 ```
 
 We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA) and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
