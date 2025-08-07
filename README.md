@@ -90,6 +90,33 @@ Our FIT-RS dataset is built based on the [STAR](https://linlin-dev.github.io/pro
     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
     year={2024},
     publisher={IEEE}}
+
+@inproceedings{zhu2025skysenseo,
+  title={Skysense-o: Towards open-world remote sensing interpretation with vision-centric visual-language modeling},
+  author={Zhu, Qi and Lao, Jiangwei and Ji, Deyi and Luo, Junwei and Wu, Kang and Zhang, Yingying and Ru, Lixiang and Wang, Jian and Chen, Jingdong and Yang, Ming and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={14733--14744},
+  year={2025}
+}
+
+@article{wu2025semantic,
+  author       = {Wu, Kang and Zhang, Yingying and Ru, Lixiang and Dang, Bo and Lao, Jiangwei and Yu, Lei and Luo, Junwei and Zhu, Zifan and Sun, Yue and Zhang, Jiahao and Zhu, Qi and Wang, Jian and Yang, Ming and Chen, Jingdong and Zhang, Yongjun and Li, Yansheng},
+  title        = {A semantic‑enhanced multi‑modal remote sensing foundation model for Earth observation},
+  journal      = {Nature Machine Intelligence},
+  year         = {2025},
+  doi          = {10.1038/s42256-025-01078-8},
+  url          = {https://doi.org/10.1038/s42256-025-01078-8}
+}
+
+@inproceedings{guo2024skysense,
+    author    = {Guo, Xin and Lao, Jiangwei and Dang, Bo and Zhang, Yingying and Yu, Lei and Ru, Lixiang and Zhong, Liheng and Huang, Ziyuan and Wu, Kang and Hu, Dingxiang and He, Huimei and Wang, Jian and Chen, Jingdong and Yang, Ming and Zhang, Yongjun and Li, Yansheng},
+    title     = {SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {27672-27683}
+}
 ```
 
 We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA) and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
+
